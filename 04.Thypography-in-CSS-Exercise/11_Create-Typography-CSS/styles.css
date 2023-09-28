@@ -1,0 +1,52 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+.ul_square {
+    list-style: square;
+}
+
+.ul_disc {
+    list-style: disc;
+}
+
+.ul_circle {
+    list-style: circle;
+}
+
+table th, td {
+    border: solid 1px lightgrey;
+    text-align: left;
+    padding: 0.3em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+tr:nth-child(even) {
+    background-color: #F3F3F3;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 2em;
+    border-left: solid 3px rgb(221,221,221);
+}
+
+p.author {
+    text-align: right;
+}
