@@ -1,7 +1,10 @@
-body {
+html {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+}
+
+body {
     padding: 1em;
 }
 
@@ -47,6 +50,6 @@ blockquote {
     border-left: solid 3px rgb(221,221,221);
 }
 
-p.author {
+blockquote p.author {
     text-align: right;
 }

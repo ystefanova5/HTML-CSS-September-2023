@@ -1,7 +1,10 @@
-body {
+html {
     font-family: Helvetica, sans-serif;
     line-height: 1.5;
     font-size: 18px;
+}
+
+body {
     background-color: white;
 }
 
