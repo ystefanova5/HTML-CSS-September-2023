@@ -1,0 +1,35 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+        margin: 50px;
+}
+
+header {
+    border-bottom: solid 1px black;
+    padding: 0.5em;
+}
+
+.site_title {
+    font-weight: 700;
+    font-size: 36px;
+    display: inline-block;
+}
+
+nav *  {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    right: 0;
+    position: relative;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 0.9em;
+}
