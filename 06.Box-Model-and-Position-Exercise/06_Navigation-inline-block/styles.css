@@ -3,7 +3,14 @@ html {
 }
 
 body {
-        margin: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.site_title,
+nav,
+nav ul li {
+    display: inline-block;
 }
 
 header {
@@ -14,22 +21,14 @@ header {
 .site_title {
     font-weight: 700;
     font-size: 36px;
-    display: inline-block;
 }
 
-nav *  {
-    display: inline-block;
+header nav ul li {
+    list-style: none;
 }
 
-nav {
-    display: inline-block;
-    right: 0;
-    position: relative;
-}
-
-a {
+nav ul li a {
     color: green;
     text-decoration: none;
     margin: 0 1em;
-    font-size: 0.9em;
 }
