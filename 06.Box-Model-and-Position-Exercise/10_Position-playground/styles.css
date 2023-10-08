@@ -1,12 +1,12 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
-body {
+* {
     margin: 0;
 }
 
 .viewport {
     height: 50vh;
-    position: relative;
+    position: relative ;
 }
 
 .viewport:nth-child(1) {
@@ -14,7 +14,7 @@ body {
 }
 
 .viewport:nth-child(2) {
-        background-image: linear-gradient(to right, darkorchid, orange);
+    background-image: linear-gradient(to right, darkorchid, orange);
 }
 
 .card {
