@@ -39,3 +39,7 @@ span.icon {
     bottom: 5px;
     color: white;
 }
+
+aside {
+    float: right;
+}
