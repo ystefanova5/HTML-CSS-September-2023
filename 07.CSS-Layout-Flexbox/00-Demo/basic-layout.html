@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Layout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+        p {
+            margin: 0;
+        }
+        .site {
+            border: 2px solid black;
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            min-height: 100vh;
+        }
+        .site > * {
+            border: 2px solid green;
+            padding: 2em;
+        }
+        .site-header {
+            flex-basis: 100%;
+        }
+        .site-footer {
+            flex-basis: 100%;
+            margin-top: auto;
+        }
+        .site-content {
+            flex-grow: 2;
+            /*margin-right: 2em;*/
+        }
+        .site-sidebar {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="site">
+    <header class="site-header">
+        <p class="site-title"><a href="#">Header</a></p>
+    </header>
+    <main class="site-content">
+        <p>Main content</p>
+    </main>
+    <aside class="site-sidebar">
+        Sidebar
+    </aside>
+    <footer class="site-footer">
+        <p>Footer</p>
+    </footer>
+</div>
+</body>
+</html>
