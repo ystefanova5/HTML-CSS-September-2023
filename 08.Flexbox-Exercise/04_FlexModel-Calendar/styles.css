@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2em;
+}
+
+span {
+    border: 1px solid black;
+    padding: 0.5em 0.5em 3em;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.container {
+    max-width: 65vw;
+    display: flex;
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workweek,
+.weekend {
+    flex-basis: 100%;
+}
+
+.week {
+    flex-grow: 4;
+    height: 400px;
+}
+
+.notes {
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: fit-content;
+    height: 400px;
+}
+
