@@ -1,0 +1,19 @@
+body {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /*default*/
+    justify-content: space-between;
+
+}
+
+.child {
+    flex: 1;
+    padding: 1em;
+    box-shadow:  0 0 3px black;
+    border-radius: 2em;
+    /*align-self: stretch;*/
+}

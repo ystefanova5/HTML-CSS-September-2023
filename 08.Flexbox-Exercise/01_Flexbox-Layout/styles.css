@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5rem;
+    font-family: Helvetica, sans-serif;
+    background: #EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.site-header,
+.site-main,
+.site-sidebar,
+.site-footer {
+    padding: 2rem;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    border-radius: 0.4rem;
+    color: #000;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+}
+
+.site-header,
+.site-footer {
+    flex-basis: 100%;
+}
+
+.site-main {
+    flex: 8 1 40rem;
+    min-height: 400px;
+}
+
+.site-sidebar {
+    flex: 2 1 20rem;
+}
