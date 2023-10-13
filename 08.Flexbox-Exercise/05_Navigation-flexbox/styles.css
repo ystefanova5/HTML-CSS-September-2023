@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 1em/1.5 Helvetica, sans-serif;
+}
+
+body {
+    width: 75vw;
+    margin: 3em auto;
+}
+
+header {
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    list-style: none;
+}
+ nav ul li a {
+     text-decoration: none;
+     color: rgb(0, 153, 0);
+ }
+
+.site-title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    font: 1.6em/2 Georgia, serif;
+    padding: 0.4em 0;
+}
+
+main p {
+    padding-bottom: 1.5em;
+}
+
+
