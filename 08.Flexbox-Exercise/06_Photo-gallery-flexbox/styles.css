@@ -8,6 +8,12 @@ body {
     width: 75vw;
     margin: 3em auto;
     background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    max-width: 45em;
 }
 
 .gallery ul {
@@ -21,7 +27,8 @@ body {
 }
 
 .gallery ul li {
-    flex-basis: 30%;
+    /*flex-basis: 30%;*/
+    flex: 1 1 200px;
     display: flex;
     border: 6px solid black;
     padding: 1em 1em;

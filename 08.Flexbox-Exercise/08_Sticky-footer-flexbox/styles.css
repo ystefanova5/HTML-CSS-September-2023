@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.5em;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    padding: 0.5em 0;
+}
+
+main p {
+    padding-bottom: 1em;
+}
+
+main {
+    /*this creates the sticky footer*/
+    flex: 1 1 auto;
+    padding: 1em;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    height: 60px;
+    padding: 1em;
+}

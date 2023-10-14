@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 1em/1.5 Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    /*justify-content: space-between;*/
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+    border: 3px solid black;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    color: dimgray;
+    font-style: italic;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+aside ul {
+    padding-left: 2em;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    padding: 0.5em 0;
+}
+
+.site-title {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header {
+    /*flex-basis: 100%;*/
+    flex: 1 1 100%; /*same as above*/
+    border-bottom: 2px solid black;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+main {
+    flex: 1 1 65%;
+}
+
+aside {
+    flex: 1 1 25%;
+    margin-left: 3em;
+}
+
+.escalators_img {
+    display: block;
+    float: right;
+    margin: 0 0 1em 1em;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+.forest-img {
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+
