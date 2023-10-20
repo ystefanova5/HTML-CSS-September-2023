@@ -18,22 +18,6 @@
         padding: 1em 0;
     }
 
-    /*.team-description ul {*/
-    /*    flex-wrap: wrap;*/
-    /*    gap: 1em;*/
-    /*}*/
-    /*.team-description ul li {*/
-    /*    width: 35%;*/
-    /*}*/
-    /*.team-description ul li img {*/
-    /*    display: block;*/
-    /*}*/
-    /*.team-description-wrapper {*/
-    /*    padding: 2em;*/
-    /*    width: auto;*/
-    /*}*/
-
-
     .team-description ul li {
         margin-bottom: 1em;
     }
