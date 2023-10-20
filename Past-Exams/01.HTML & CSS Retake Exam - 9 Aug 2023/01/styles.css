@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
+
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.2 Inter;
+}
+
+body {
+    background: url("images/background.jpg");
+}
+
+.site {
+    max-width: 1650px;
+    margin: 3em auto;
+}
+
+
+.main-container {
+    display: flex;
+    gap: 2em;
+    align-items: stretch;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex: 2;
+}
+
+.vertical-container {
+    flex: 1;
+}
+
+.horizontal-card {
+    display: flex;
+    gap: 2em;
+    flex: 1;
+    align-items: center;
+}
+
+.horizontal-card .card-content {
+    flex: 3;
+}
+
+.horizontal-card .card-image {
+    flex: 1;
+}
+
+.horizontal-card,
+.vertical-card {
+    background: #FFFFFF;
+    padding: 2em;
+}
+
+.quote-text {
+    color: #595959;
+    margin-bottom: 1em;
+}
+
+.horizontal-card .card-image img,
+.vertical-card .card-image img {
+    display: block;
+    height: auto;
+    clip-path: circle();
+
+}
+
+.horizontal-card .card-image img {
+    width: 100%;
+    margin: auto;
+}
+
+
+.vertical-card .card-image img {
+    width: 100%;
+    filter: grayscale(100%)
+}
+
+.quote-text {
+    font-size: 24px;
+    padding: 1em 0;
+}
+
+.author,
+.vertical-author {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.author-position {
+    font-size: 16px;
+    color: #595959;
+}
+
+
+.small-quote {
+    font-size: 3em;
+    padding-bottom: 0.3em;
+}
+
+.large-quote {
+    font-size: 6em;
+    padding-bottom: 0.6em;
+}
+
+.vertical-image-author-container {
+    display: flex;
+    gap: 1em;
+}
+
+.vertical-image-author-container .card-image {
+    flex: 1;
+    margin: auto;
+}
+
+.vertical-image-author-container .vertical-author {
+    flex: 2;
+    margin: auto;
+}
+
+.vertical-container .quote-text {
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 4em;
+}
+
+.vertical-container .quote-text {
+    margin-bottom: 0;
+}
