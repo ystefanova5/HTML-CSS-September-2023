@@ -52,7 +52,7 @@ body {
     flex: 3;
 }
 
-.horizontal-card .card-image {
+.horizontal-card .person-image {
     flex: 1;
 }
 
@@ -62,37 +62,37 @@ body {
     padding: 2em;
 }
 
-.quote-text {
+.card-text {
     color: #595959;
     margin-bottom: 1em;
 }
 
-.horizontal-card .card-image img,
-.vertical-card .card-image img {
+.horizontal-card .person-image img,
+.vertical-card .person-image img {
     display: block;
     height: auto;
     clip-path: circle();
 
 }
 
-.horizontal-card .card-image img {
+.horizontal-card .person-image img {
     width: 100%;
     margin: auto;
 }
 
 
-.vertical-card .card-image img {
+.vertical-card .person-image img {
     width: 100%;
     filter: grayscale(100%)
 }
 
-.quote-text {
+.card-text {
     font-size: 24px;
     padding: 1em 0;
 }
 
 .author,
-.vertical-author {
+.read-time {
     font-size: 30px;
     font-weight: 500;
 }
@@ -113,26 +113,26 @@ body {
     padding-bottom: 0.6em;
 }
 
-.vertical-image-author-container {
+.cars-footer {
     display: flex;
     gap: 1em;
 }
 
-.vertical-image-author-container .card-image {
+.cars-footer .person-image {
     flex: 1;
     margin: auto;
 }
 
-.vertical-image-author-container .vertical-author {
+.cars-footer .read-time {
     flex: 2;
     margin: auto;
 }
 
-.vertical-container .quote-text {
+.vertical-container .card-text {
     border-bottom: 1px solid #D9D9D9;
     padding-bottom: 4em;
 }
 
-.vertical-container .quote-text {
+.vertical-container .card-text {
     margin-bottom: 0;
 }
