@@ -1,0 +1,41 @@
+.test-01,
+.test-02 {
+    display: flex;
+    height: 100px;
+    margin: 0;
+}
+
+.test-01 > div {
+    flex: 1;
+    display: flex; /*we need this to set the alignments below*/
+    align-items: center; /*centers text vertically inside the container*/
+    justify-content: center; /*centers text horizontally inside the container*/
+    background: lightgrey;
+}
+
+.test-01 > div:nth-child(odd) {
+    background: lightblue;
+    /*align-self: flex-start;*/
+    /*align-items: flex-end;*/
+    /*justify-content: flex-start;*/
+}
+
+.test-02 {
+    flex-wrap: wrap;
+}
+
+
+.test-02 > div {
+    display: flex;
+    background-color: lightpink;
+    /*flex: 1 1 20%;*/
+    flex: 1 1 50%;
+}
+
+.test-02 > div:nth-child(odd) {
+    background: lightgoldenrodyellow;
+    /*align-self: flex-start;*/
+    /*align-items: flex-end;*/
+    /*justify-content: flex-start;*/
+}
+
