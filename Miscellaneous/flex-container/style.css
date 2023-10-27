@@ -1,0 +1,139 @@
+/* General styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+.container {
+     padding: 12px;
+    border: 2px dashed black;
+}
+
+.item {
+    padding: 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+.item:nth-child(1) {
+    background-color: #845ec2;
+}
+
+.item:nth-child(2) {
+    background-color: #0081cf;
+}
+
+.item:nth-child(3) {
+    background-color: #d65db1;
+}
+
+.item:nth-child(4) {
+    background-color: #ff9671;
+}
+
+.item:nth-child(5) {
+    background-color: #00c9a7;
+}
+
+.item:nth-child(6) {
+    background-color: #c34a36;
+    /*height: 400px;*/
+}
+
+/* FLEXBOX */
+
+.container {
+    height: 500px;
+    display: flex;
+}
+
+/*.container {*/
+/*    flex-wrap: wrap;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.container {*/
+/*    flex-wrap: wrap;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.container {*/
+/*    flex-wrap: wrap;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+/*.container {*/
+/*    height: 250px;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+/*.container {*/
+/*    height: 250px;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.container {*/
+/*    flex-wrap: wrap;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.container {*/
+/*    height: 250px;*/
+/*    flex-wrap: wrap;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: flex-end;*/
+/*}*/
+
+/*.container {*/
+/*    flex-wrap: wrap;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*    !*align-content: flex-start;*!*/
+/*}*/
+
+/*.container {*/
+/*    flex-wrap: wrap;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*    align-content: center;*/
+/*}*/
+
+/*.container {*/
+/*    height: 250px;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+
+
+.container {
+    /*height: 500px;*/
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+
+

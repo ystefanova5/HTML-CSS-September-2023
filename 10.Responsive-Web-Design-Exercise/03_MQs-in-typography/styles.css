@@ -54,7 +54,7 @@ h1, h2, h3 {
 }
 
 header {
-    /*flex-basis: 100%;*/
+    /*flex-container-basis: 100%;*/
     flex: 1 1 100%; /*same as above*/
     border-bottom: 2px solid black;
 }

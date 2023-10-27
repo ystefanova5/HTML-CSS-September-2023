@@ -15,9 +15,9 @@
 
 .test-01 > div:nth-child(odd) {
     background: lightblue;
-    /*align-self: flex-start;*/
-    /*align-items: flex-end;*/
-    /*justify-content: flex-start;*/
+    /*align-self: flex-container-start;*/
+    /*align-items: flex-container-end;*/
+    /*justify-content: flex-container-start;*/
 }
 
 .test-02 {
@@ -28,14 +28,14 @@
 .test-02 > div {
     display: flex;
     background-color: lightpink;
-    /*flex: 1 1 20%;*/
+    /*flex-container: 1 1 20%;*/
     flex: 1 1 50%;
 }
 
 .test-02 > div:nth-child(odd) {
     background: lightgoldenrodyellow;
-    /*align-self: flex-start;*/
-    /*align-items: flex-end;*/
-    /*justify-content: flex-start;*/
+    /*align-self: flex-container-start;*/
+    /*align-items: flex-container-end;*/
+    /*justify-content: flex-container-start;*/
 }
 

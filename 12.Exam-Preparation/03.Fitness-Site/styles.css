@@ -19,7 +19,7 @@ html {
 /*    margin: 0 auto;*/
 /*}*/
 
-.site-header {
+.site-navigation {
     display: flex;
     background-color: #D01919;
     justify-content: space-between;
@@ -43,7 +43,7 @@ img {
     overflow: hidden;
 }
 
-.site-banner {
+.site-hero {
     height: 600px;
     color:  #FFFFFF;
     display: flex;
@@ -63,31 +63,31 @@ img {
     font-size: 1.2em;
 }
 
-.site-banner ul li a {
+.site-hero ul li a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.banner-content {
+.hero-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 1.2em;
 }
 
-.banner-content h1 {
+.hero-content h1 {
     padding: 1em 0 0.5em;
     letter-spacing: 12px;
     font-size: 3em;
 }
 
-.site-banner p {
+.site-hero p {
     padding-bottom: 2em;
     max-width: 53ch;
     text-align: center;
 }
 
-.banner-content a {
+.hero-content a {
     text-decoration: none;
     color: whitesmoke;
     font-weight: bold;

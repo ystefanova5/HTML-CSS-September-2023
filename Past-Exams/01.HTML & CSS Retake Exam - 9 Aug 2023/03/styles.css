@@ -58,25 +58,25 @@ img {
     border-radius: 0.3em;
 }
 
-.site-header {
+.site-navigation {
     padding: 10em 20em;
     width: 70%;
     margin-bottom: 4em;
 }
 
-.site-header h1 {
+.site-navigation h1 {
     font-size: 54px;
     padding-bottom: 1.5em;
 }
 
-.site-header .header-desc {
+.site-navigation .header-desc {
     color: #FFFFFF;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 3em;
 }
 
-.site-header a {
+.site-navigation a {
     color: #FFFFFF;
     background: #000000;
     text-decoration: none;
